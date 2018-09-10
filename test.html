@@ -1,0 +1,15 @@
+
+<!doctype html>
+<html><head><title>Test</title></head>
+  <body>    
+    <script>  
+        setTimeout(function(){
+          try {
+            window.location = "foo://bar";
+          } catch(err) {
+            alert(err);
+          } 
+        }, 5000);
+    </script>
+  </body>
+</html>
