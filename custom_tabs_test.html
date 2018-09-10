@@ -5,11 +5,7 @@
     <h1>Redirecting to <b>foo://bar</b> in 5 seconds...</h1>
     <script>  
         setTimeout(function(){
-          try {
-            window.location = "foo://bar";
-          } catch(err) {
-            alert(err);
-          } 
+          window.location = "foo://bar";
         }, 5000);
     </script>
   </body>
